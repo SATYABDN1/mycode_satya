@@ -1,2 +1,12 @@
 # mycode_satya
-Tracking my code
+my first ansible project
+
+## Getting Started
+
+### Prerequisites
+
+
+## Built With
+
+## Authors
+satya

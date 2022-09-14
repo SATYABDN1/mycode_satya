@@ -1,0 +1,26 @@
+- name: showing off variable creation
+  hosts: localhost
+  gather_facts: no
+
+  vars:
+      colors: ["red", "blue", "pink", "black"]
+      # fav_book:
+      #   - the hobbit
+      #   - rammayan
+      #   - mahabhart
+      fav_icecream: coffee
+      fav_color: red
+      fav_nums: [1, 2, 3, 4]
+      yash_nums: "{{ range(1,6) }}"
+  vars_files: #list of files to be read in
+      - chadbook.yml  
+  tasks:
+      - name: print a value
+        debug:
+            #var: fav_book
+            var: fav_book + fav_nums
+            #msg: "my fav color is {{ fav_color }} and  my fav number is {{ yash_nums }} " 
+      - name: preference
+        debug:
+          msg: "my fav color is {{ item }}!"
+        loop: "{{ colors }}" 

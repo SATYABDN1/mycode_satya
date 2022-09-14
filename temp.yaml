@@ -1,0 +1,11 @@
+- name: showing off the template module
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  vars_files:
+      - pets.yml 
+  tasks:
+      - name: create a pet registration form
+        template:
+            src: ~/mycode/templates/petinfo.txt
+            dest: ~/mycode/dog.txt

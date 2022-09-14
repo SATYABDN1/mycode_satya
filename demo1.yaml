@@ -1,0 +1,26 @@
+- name: first play- install s1 on planetexpress exept farnsworth # name of play
+  hosts: planetexpress !farnsworth  # specify whcih hosts
+  gather_facts: no # do i want the setup module run against bender?
+
+  tasks: # list of tasks to do IN ORDER!
+
+     - name: install s1 on bender
+       apt: #install app on ubuntu systems
+         name:
+           - sl  # parameter for the apt module 
+           - cmatrix
+           - figlet
+       become: yes # task keyword (sudo) 
+
+- name: second play- install s1 on planetexpress exept farnsworth # name of play            
+  hosts: farnsworth
+  gather_facts: no
+
+  tasks:
+      - name:
+        yum:
+          name:
+           - sl
+           - figlet
+        become: yes
+

@@ -1,0 +1,7 @@
+pet information form
+==========
+
+{% for x in pets %}
+Name: {{ x.petname }}
+species: {{ x.species }}
+allergies: {{ x.allergies }}

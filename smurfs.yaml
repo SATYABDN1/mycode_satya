@@ -1,0 +1,9 @@
+- name: variable precendnec
+  hosts: nemder
+  gather_facts: no
+  connection: ssh
+
+  vars:
+      smurfs: blue
+
+ 

@@ -1,0 +1,36 @@
+---
+- name: users of diff groups
+  hosts: raiders
+  gather_facts: no
+
+  vars: 
+    groupnames: 
+         - malathi
+         - sunder  
+    usernames:
+        - uname: satya
+          ggroup: sunder
+        - uname: deeps
+          ggroup: malathi
+        - uname: kamal
+          ggroup: malathi
+   
+  tasks:
+      - name: create  group
+        group: 
+          name: "{{ item }}"
+          state: present
+        loop: "{{ groupnames }}"
+        become: yes
+
+      - name: create user
+        user:
+            name: "{{ item.uname }}"
+            state: present
+            group: "{{ item.ggroup }}"
+        loop: "{{ usernames }}"
+        become: yes
+
+
+
+

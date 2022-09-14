@@ -1,0 +1,17 @@
+---
+- name: our first play
+  hosts: planetexpress
+  gather_facts: yes
+  tasks:
+      - name: instal
+        apt:
+            name: sl
+            state: present
+        become: yes
+        when: ansible_distribution == "Ubuntu"
+      - name: yum install
+        yum:
+            name: sl
+            state: present
+        become: yes
+        when: ansible_distribution == "CentOS" and ansible_distribution != "Ubuntu"

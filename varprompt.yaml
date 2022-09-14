@@ -1,0 +1,13 @@
+- name: show off vars_promp
+  hosts: farnsworth
+  connection: ssh
+  gather_facts: no
+
+  vars_prompt:
+      - name: ansible_ssh_pass
+        prompt: what is your password?
+        private: yes
+  tasks:
+      - debug:
+          #msg: "it worked"
+          var: ansible_ssh_pass

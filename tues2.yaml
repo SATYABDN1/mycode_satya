@@ -1,0 +1,18 @@
+---
+- name: Tuesday Challenge
+  hosts: bender 
+  connection: ssh
+  gather_facts: no
+
+  tasks:
+       
+   - name: using apt to install sl
+     apt:
+        name: sl
+        state: present
+     register: result  # <-- this is new! "register" is creating a variable named "result" which contains the output from this task
+     become: true
+
+   - name: print out the variable named "result"              
+     debug: # the debug module is similar to print() in python-- it prints stuff out!                                   │
+         var: result # displaying the value of the variable "result"        

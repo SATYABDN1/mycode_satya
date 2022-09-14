@@ -1,0 +1,20 @@
+- name : create dir
+  hosts: looneytunes
+  gather_facts: no
+  connection: ssh
+
+  tasks:
+      - name: "directoy creation"
+        file:
+           state: directory
+           path: ~/foo
+      - name: "get url"
+        get_url:
+            url: https://raw.githubusercontent.com/csfeeser/ansible_essentials/main/data/downloadme.txt
+            dest: foo
+      - name: "replace the text"
+        replace:
+            path: ~/foo/downloadme.txt
+            regexp: PLACEHOLDER
+            replace: satya
+            backup: yes

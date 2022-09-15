@@ -1,0 +1,21 @@
+- name:  error handling
+  hosts:  localhost
+  gather_facts: no
+  tasks:
+      - name: group of tasks
+        block:
+            - debug:
+                msg: 1
+            - fail:
+                msg: error
+            - debug:
+                mesg: 2
+
+        rescue:
+            - debug:
+                msg: RTTOT!
+
+        always:
+            - debug:
+                msg: always there
+

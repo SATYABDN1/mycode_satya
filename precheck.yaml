@@ -1,0 +1,15 @@
+- name: prechecking
+  hosts: planetexpress
+  gather_facts: yes
+
+  tasks:
+      - name: precheck non ubuntu machines
+        fail:
+            mesg: this is not ubuntu vm
+        when: ansible_distribution != "Ubuntu"
+      - name: install sl
+        apt:
+            name: sl
+            state: present
+        become: true
+            

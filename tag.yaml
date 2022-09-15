@@ -1,0 +1,17 @@
+- name: showing off tags
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+      - debug:
+          msg: "task 1"
+      - debug:
+          msg: "task 2"
+        tags:
+            - delta
+            - alpha
+      - debug:
+          msg: "task 3"
+        tags:  #NEEW
+          - delta  
+

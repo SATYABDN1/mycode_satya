@@ -1,0 +1,14 @@
+- name: show off
+  hosts: planetexpress
+  connection: ssh
+  gather_facts: no
+
+  tasks:
+      - shell:
+           cmd: ls -l   
+        notify: handler1
+  handlers:
+      - name: handler1
+        debug:
+          msg: " i am handler"
+

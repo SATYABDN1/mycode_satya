@@ -1,0 +1,13 @@
+---
+- name: new hire desktop
+  hosts: all
+  gather_facts: yes
+
+  roles:
+      - bootstrap
+      - securityapps
+      - officetools
+  
+
+
+

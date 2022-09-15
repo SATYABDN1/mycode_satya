@@ -10,8 +10,8 @@
        path: ~/output/
        state: directory
 
-       #   - name: use shell module with wildcarding
-       #shell: echo $HOME >> ~/output/path.txt
+   - name: use shell module with wildcarding
+     shell: echo $HOME >> ~/output/path.txt
    - name: use copy to avoid using a shell command
      copy:
        content: "{{ ansible_env.HOME }}"           # this retrieves env info from gathered facts ("left side" of the shell command)

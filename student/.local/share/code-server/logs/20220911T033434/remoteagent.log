@@ -1,0 +1,7 @@
+[2022-09-11 03:34:35.275] [remoteagent] [info] Getting Manifest... esbenp.prettier-vscode
+[2022-09-11 03:34:35.712] [remoteagent] [info] Installing extension: esbenp.prettier-vscode
+[2022-09-11 03:34:38.324] [remoteagent] [info] Downloaded extension: esbenp.prettier-vscode /home/student/.local/share/code-server/CachedExtensionVSIXs/esbenp.prettier-vscode-9.8.0
+[2022-09-11 03:34:39.026] [remoteagent] [info] Extracted extension to /home/student/.local/share/code-server/extensions/.2aba4384-18e8-4d9d-aa6e-5caa42a42654: esbenp.prettier-vscode
+[2022-09-11 03:34:39.071] [remoteagent] [info] Renamed to /home/student/.local/share/code-server/extensions/esbenp.prettier-vscode-9.8.0
+[2022-09-11 03:34:39.074] [remoteagent] [info] Extracting completed. esbenp.prettier-vscode
+[2022-09-11 03:34:39.074] [remoteagent] [info] Extension installed successfully: esbenp.prettier-vscode

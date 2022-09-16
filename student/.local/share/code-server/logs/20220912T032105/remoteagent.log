@@ -1,0 +1,73 @@
+[2022-09-12 03:21:06.114] [remoteagent] [info] Extension host agent started.
+[2022-09-12 03:21:24.709] [remoteagent] [info] [10.0.0.12][cfd5a3bf][ManagementConnection] New connection established.
+[2022-09-12 03:21:26.544] [remoteagent] [warning] Switching to using in-memory credential store instead because Keytar failed to load: Cannot find module 'keytar'
+Require stack:
+- /home/student/.local/lib/code-server-4.2.0-linux-amd64/lib/vscode/out/bootstrap-amd.js
+- /home/student/.local/lib/code-server-4.2.0-linux-amd64/out/node/util.js
+- /home/student/.local/lib/code-server-4.2.0-linux-amd64/out/node/cli.js
+- /home/student/.local/lib/code-server-4.2.0-linux-amd64/out/node/entry.js
+[2022-09-12 03:21:29.945] [remoteagent] [info] [10.0.0.12][57771789][ExtensionHostConnection] New connection established.
+[2022-09-12 03:21:29.958] [remoteagent] [info] [10.0.0.12][57771789][ExtensionHostConnection] <14037> Launched Extension Host Process.
+[2022-09-12 03:22:13.411] [remoteagent] [info] [10.0.0.12][cfd5a3bf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-12 03:22:13.435] [remoteagent] [info] [10.0.0.12][57771789][ExtensionHostConnection] <14037> Extension Host Process exited with code: 0, signal: null.
+[2022-09-12 03:22:26.869] [remoteagent] [info] [10.0.0.12][d3e7f9ef][ManagementConnection] New connection established.
+[2022-09-12 03:22:32.926] [remoteagent] [info] [10.0.0.12][ec32b931][ExtensionHostConnection] New connection established.
+[2022-09-12 03:22:32.937] [remoteagent] [info] [10.0.0.12][ec32b931][ExtensionHostConnection] <14066> Launched Extension Host Process.
+[2022-09-12 03:23:31.803] [remoteagent] [info] [10.0.0.12][fa211116][ManagementConnection] New connection established.
+[2022-09-12 03:23:36.409] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 73
+[2022-09-12 03:23:36.836] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 74
+[2022-09-12 03:23:36.836] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 75
+[2022-09-12 03:23:36.837] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 76
+[2022-09-12 03:23:37.095] [remoteagent] [info] [10.0.0.12][4f5e43ab][ExtensionHostConnection] New connection established.
+[2022-09-12 03:23:37.107] [remoteagent] [info] [10.0.0.12][4f5e43ab][ExtensionHostConnection] <14110> Launched Extension Host Process.
+[2022-09-12 03:23:37.126] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 77
+[2022-09-12 03:23:37.313] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 78
+[2022-09-12 03:23:37.325] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/student)
+[2022-09-12 03:23:37.804] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 79
+[2022-09-12 03:23:38.167] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 80
+[2022-09-12 03:23:38.690] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 81
+[2022-09-12 03:23:38.935] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 82
+[2022-09-12 03:23:39.201] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 83
+[2022-09-12 03:23:39.482] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 84
+[2022-09-12 03:23:40.397] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 85
+[2022-09-12 03:23:40.620] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 86
+[2022-09-12 03:23:40.984] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 87
+[2022-09-12 03:23:41.357] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 88
+[2022-09-12 03:23:41.700] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 89
+[2022-09-12 03:23:42.088] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 90
+[2022-09-12 03:23:42.309] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 91
+[2022-09-12 03:23:42.517] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 92
+[2022-09-12 03:23:42.620] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 93
+[2022-09-12 03:23:42.829] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 94
+[2022-09-12 03:23:43.046] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 95
+[2022-09-12 03:23:43.223] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 96
+[2022-09-12 03:23:43.459] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 97
+[2022-09-12 03:23:43.707] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 98
+[2022-09-12 03:23:43.879] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 99
+[2022-09-12 03:23:44.136] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 100
+[2022-09-12 03:23:44.139] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 101
+[2022-09-12 03:23:44.456] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 102
+[2022-09-12 03:23:44.621] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 103
+[2022-09-12 03:23:44.874] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 104
+[2022-09-12 03:23:45.342] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 105
+[2022-09-12 03:23:45.556] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 106
+[2022-09-12 03:23:45.911] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 107
+[2022-09-12 03:23:46.270] [remoteagent] [warning] RequestStore#acceptReply was called without receiving a matching request 108
+[2022-09-12 03:24:08.918] [remoteagent] [info] [10.0.0.12][d3e7f9ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-12 03:24:08.983] [remoteagent] [info] [10.0.0.12][ec32b931][ExtensionHostConnection] <14066> Extension Host Process exited with code: 0, signal: null.
+[2022-09-14 03:24:27.320] [remoteagent] [info] Getting Manifest... redhat.ansible
+[2022-09-14 03:24:27.926] [remoteagent] [info] Installing extension: redhat.ansible
+[2022-09-14 03:24:29.282] [remoteagent] [info] Downloaded extension: redhat.ansible /home/student/.local/share/code-server/CachedExtensionVSIXs/redhat.ansible-0.13.63
+[2022-09-14 03:24:29.391] [remoteagent] [info] Extracted extension to /home/student/.local/share/code-server/extensions/.e9cfc5da-b08f-4216-b503-81a7a496163d: redhat.ansible
+[2022-09-14 03:24:29.401] [remoteagent] [info] Renamed to /home/student/.local/share/code-server/extensions/redhat.ansible-0.13.63
+[2022-09-14 03:24:29.404] [remoteagent] [info] Extracting completed. redhat.ansible
+[2022-09-14 03:24:29.415] [remoteagent] [info] Extension installed successfully: redhat.ansible
+[2022-09-15 15:25:14.808] [remoteagent] [info] Getting Manifest... redhat.ansible
+[2022-09-15 15:25:15.455] [remoteagent] [info] Installing extension: redhat.ansible
+[2022-09-15 15:25:16.790] [remoteagent] [info] Downloaded extension: redhat.ansible /home/student/.local/share/code-server/CachedExtensionVSIXs/redhat.ansible-0.13.65
+[2022-09-15 15:25:16.896] [remoteagent] [info] Extracted extension to /home/student/.local/share/code-server/extensions/.dbf954eb-1ca6-44da-a49a-8403631fed82: redhat.ansible
+[2022-09-15 15:25:16.906] [remoteagent] [info] Renamed to /home/student/.local/share/code-server/extensions/redhat.ansible-0.13.65
+[2022-09-15 15:25:16.908] [remoteagent] [info] Extracting completed. redhat.ansible
+[2022-09-15 15:25:16.920] [remoteagent] [info] Extension installed successfully: redhat.ansible
+[2022-09-16 02:30:06.500] [remoteagent] [info] [10.0.0.12][fa211116][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-16 02:30:06.678] [remoteagent] [info] [10.0.0.12][4f5e43ab][ExtensionHostConnection] <14110> Extension Host Process exited with code: 0, signal: null.

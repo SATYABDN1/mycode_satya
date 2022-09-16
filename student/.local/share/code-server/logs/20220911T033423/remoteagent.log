@@ -1,0 +1,14 @@
+[2022-09-11 03:34:24.201] [remoteagent] [info] Getting Manifest... redhat.ansible
+[2022-09-11 03:34:24.639] [remoteagent] [info] Installing extension: redhat.ansible
+[2022-09-11 03:34:25.137] [remoteagent] [info] Getting Manifest... redhat.vscode-yaml
+[2022-09-11 03:34:25.693] [remoteagent] [info] Installing extension: redhat.vscode-yaml
+[2022-09-11 03:34:26.964] [remoteagent] [info] Downloaded extension: redhat.vscode-yaml /home/student/.local/share/code-server/CachedExtensionVSIXs/redhat.vscode-yaml-1.9.1
+[2022-09-11 03:34:27.114] [remoteagent] [info] Extracted extension to /home/student/.local/share/code-server/extensions/.8fc9ac4a-b157-4f24-886b-3ac144af720e: redhat.vscode-yaml
+[2022-09-11 03:34:27.123] [remoteagent] [info] Renamed to /home/student/.local/share/code-server/extensions/redhat.vscode-yaml-1.9.1
+[2022-09-11 03:34:27.124] [remoteagent] [info] Extracting completed. redhat.vscode-yaml
+[2022-09-11 03:34:28.014] [remoteagent] [info] Downloaded extension: redhat.ansible /home/student/.local/share/code-server/CachedExtensionVSIXs/redhat.ansible-0.13.60
+[2022-09-11 03:34:28.099] [remoteagent] [info] Extracted extension to /home/student/.local/share/code-server/extensions/.1691f96c-a317-41f9-9c34-0c347c2c3877: redhat.ansible
+[2022-09-11 03:34:28.109] [remoteagent] [info] Renamed to /home/student/.local/share/code-server/extensions/redhat.ansible-0.13.60
+[2022-09-11 03:34:28.111] [remoteagent] [info] Extracting completed. redhat.ansible
+[2022-09-11 03:34:28.111] [remoteagent] [info] Extension installed successfully: redhat.vscode-yaml
+[2022-09-11 03:34:28.111] [remoteagent] [info] Extension installed successfully: redhat.ansible

@@ -1,0 +1,7 @@
+[2022-09-11 03:34:30.948] [remoteagent] [info] Getting Manifest... vscodevim.vim
+[2022-09-11 03:34:31.438] [remoteagent] [info] Installing extension: vscodevim.vim
+[2022-09-11 03:34:33.223] [remoteagent] [info] Downloaded extension: vscodevim.vim /home/student/.local/share/code-server/CachedExtensionVSIXs/vscodevim.vim-1.23.2
+[2022-09-11 03:34:33.464] [remoteagent] [info] Extracted extension to /home/student/.local/share/code-server/extensions/.9b369061-8d0d-445d-8eb6-388baf9d830d: vscodevim.vim
+[2022-09-11 03:34:33.475] [remoteagent] [info] Renamed to /home/student/.local/share/code-server/extensions/vscodevim.vim-1.23.2
+[2022-09-11 03:34:33.477] [remoteagent] [info] Extracting completed. vscodevim.vim
+[2022-09-11 03:34:33.478] [remoteagent] [info] Extension installed successfully: vscodevim.vim

@@ -1,0 +1,36 @@
+[2022-09-11T03:34:47.236Z] info  code-server 4.2.0 693b1fac04524bb0e0cfbb93afc85702263329bb
+[2022-09-11T03:34:47.240Z] info  Using user-data-dir ~/.local/share/code-server
+[2022-09-11T03:34:47.268Z] info  Using config file ~/.config/code-server/config.yaml
+[2022-09-11T03:34:47.268Z] info  HTTP server listening on http://0.0.0.0:2226/ 
+[2022-09-11T03:34:47.268Z] info    - Authentication is disabled 
+[2022-09-11T03:34:47.268Z] info    - Not serving HTTPS 
+[03:21:06] Extension host agent started.
+[03:21:24] [10.0.0.12][cfd5a3bf][ManagementConnection] New connection established.
+[03:21:29] [10.0.0.12][57771789][ExtensionHostConnection] New connection established.
+[03:21:29] [10.0.0.12][57771789][ExtensionHostConnection] <14037> Launched Extension Host Process.
+[03:22:13] [10.0.0.12][cfd5a3bf][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:22:13] [10.0.0.12][57771789][ExtensionHostConnection] <14037> Extension Host Process exited with code: 0, signal: null.
+[03:22:26] [10.0.0.12][d3e7f9ef][ManagementConnection] New connection established.
+[03:22:32] [10.0.0.12][ec32b931][ExtensionHostConnection] New connection established.
+[03:22:32] [10.0.0.12][ec32b931][ExtensionHostConnection] <14066> Launched Extension Host Process.
+[03:23:31] [10.0.0.12][fa211116][ManagementConnection] New connection established.
+[03:23:37] [10.0.0.12][4f5e43ab][ExtensionHostConnection] New connection established.
+[03:23:37] [10.0.0.12][4f5e43ab][ExtensionHostConnection] <14110> Launched Extension Host Process.
+[03:24:08] [10.0.0.12][d3e7f9ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[03:24:08] [10.0.0.12][ec32b931][ExtensionHostConnection] <14066> Extension Host Process exited with code: 0, signal: null.
+[03:24:27] Getting Manifest... redhat.ansible
+[03:24:27] Installing extension: redhat.ansible
+[03:24:29] Downloaded extension: redhat.ansible /home/student/.local/share/code-server/CachedExtensionVSIXs/redhat.ansible-0.13.63
+[03:24:29] Extracted extension to /home/student/.local/share/code-server/extensions/.e9cfc5da-b08f-4216-b503-81a7a496163d: redhat.ansible
+[03:24:29] Renamed to /home/student/.local/share/code-server/extensions/redhat.ansible-0.13.63
+[03:24:29] Extracting completed. redhat.ansible
+[03:24:29] Extension installed successfully: redhat.ansible
+[15:25:14] Getting Manifest... redhat.ansible
+[15:25:15] Installing extension: redhat.ansible
+[15:25:16] Downloaded extension: redhat.ansible /home/student/.local/share/code-server/CachedExtensionVSIXs/redhat.ansible-0.13.65
+[15:25:16] Extracted extension to /home/student/.local/share/code-server/extensions/.dbf954eb-1ca6-44da-a49a-8403631fed82: redhat.ansible
+[15:25:16] Renamed to /home/student/.local/share/code-server/extensions/redhat.ansible-0.13.65
+[15:25:16] Extracting completed. redhat.ansible
+[15:25:16] Extension installed successfully: redhat.ansible
+[02:30:06] [10.0.0.12][fa211116][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[02:30:06] [10.0.0.12][4f5e43ab][ExtensionHostConnection] <14110> Extension Host Process exited with code: 0, signal: null.

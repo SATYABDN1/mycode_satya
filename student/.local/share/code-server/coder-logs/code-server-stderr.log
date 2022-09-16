@@ -1,0 +1,46 @@
+[03:21:26] Switching to using in-memory credential store instead because Keytar failed to load: Cannot find module 'keytar'
+Require stack:
+- /home/student/.local/lib/code-server-4.2.0-linux-amd64/lib/vscode/out/bootstrap-amd.js
+- /home/student/.local/lib/code-server-4.2.0-linux-amd64/out/node/util.js
+- /home/student/.local/lib/code-server-4.2.0-linux-amd64/out/node/cli.js
+- /home/student/.local/lib/code-server-4.2.0-linux-amd64/out/node/entry.js
+Overwriting extension /home/student/.local/lib/code-server-4.2.0-linux-amd64/lib/vscode/extensions/json-language-features with /home/student/.local/share/code-server/extensions/vscode.json-language-features-1.62.3.
+Overwriting extension /home/student/.local/lib/code-server-4.2.0-linux-amd64/lib/vscode/extensions/json-language-features with /home/student/.local/share/code-server/extensions/vscode.json-language-features-1.62.3.
+Overwriting extension /home/student/.local/lib/code-server-4.2.0-linux-amd64/lib/vscode/extensions/json-language-features with /home/student/.local/share/code-server/extensions/vscode.json-language-features-1.62.3.
+[03:23:36] RequestStore#acceptReply was called without receiving a matching request 73
+[03:23:36] RequestStore#acceptReply was called without receiving a matching request 74
+[03:23:36] RequestStore#acceptReply was called without receiving a matching request 75
+[03:23:36] RequestStore#acceptReply was called without receiving a matching request 76
+[03:23:37] RequestStore#acceptReply was called without receiving a matching request 77
+[03:23:37] RequestStore#acceptReply was called without receiving a matching request 78
+[03:23:37] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/student)
+[03:23:37] RequestStore#acceptReply was called without receiving a matching request 79
+[03:23:38] RequestStore#acceptReply was called without receiving a matching request 80
+[03:23:38] RequestStore#acceptReply was called without receiving a matching request 81
+[03:23:38] RequestStore#acceptReply was called without receiving a matching request 82
+[03:23:39] RequestStore#acceptReply was called without receiving a matching request 83
+[03:23:39] RequestStore#acceptReply was called without receiving a matching request 84
+[03:23:40] RequestStore#acceptReply was called without receiving a matching request 85
+[03:23:40] RequestStore#acceptReply was called without receiving a matching request 86
+[03:23:40] RequestStore#acceptReply was called without receiving a matching request 87
+[03:23:41] RequestStore#acceptReply was called without receiving a matching request 88
+[03:23:41] RequestStore#acceptReply was called without receiving a matching request 89
+[03:23:42] RequestStore#acceptReply was called without receiving a matching request 90
+[03:23:42] RequestStore#acceptReply was called without receiving a matching request 91
+[03:23:42] RequestStore#acceptReply was called without receiving a matching request 92
+[03:23:42] RequestStore#acceptReply was called without receiving a matching request 93
+[03:23:42] RequestStore#acceptReply was called without receiving a matching request 94
+[03:23:43] RequestStore#acceptReply was called without receiving a matching request 95
+[03:23:43] RequestStore#acceptReply was called without receiving a matching request 96
+[03:23:43] RequestStore#acceptReply was called without receiving a matching request 97
+[03:23:43] RequestStore#acceptReply was called without receiving a matching request 98
+[03:23:43] RequestStore#acceptReply was called without receiving a matching request 99
+[03:23:44] RequestStore#acceptReply was called without receiving a matching request 100
+[03:23:44] RequestStore#acceptReply was called without receiving a matching request 101
+[03:23:44] RequestStore#acceptReply was called without receiving a matching request 102
+[03:23:44] RequestStore#acceptReply was called without receiving a matching request 103
+[03:23:44] RequestStore#acceptReply was called without receiving a matching request 104
+[03:23:45] RequestStore#acceptReply was called without receiving a matching request 105
+[03:23:45] RequestStore#acceptReply was called without receiving a matching request 106
+[03:23:45] RequestStore#acceptReply was called without receiving a matching request 107
+[03:23:46] RequestStore#acceptReply was called without receiving a matching request 108

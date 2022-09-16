@@ -1,0 +1,30 @@
+---
+# tasks file for lastdayrole
+- name: get all available subsets
+  na_elementsw_info:
+      hostname: "{{ elementsw_mvip }}"
+      username: "{{ elementsw_username }}"
+      password: "{{ elementsw_password }}"
+      gather_subsets: all
+  register: result
+- debug:
+    var: result
+    verbosity: 2
+- name: Add node from pending to active cluster using node IP
+  tags:
+      - elementsw_add_node_ip
+  na_elementsw_node:
+      hostname: "{{ elementsw_hostname }}"
+      username: "{{ elementsw_username }}"
+      password: "{{ elementsw_password }}"
+      state: present
+      node_id: "{{ node-ids }}"
+      cluster_name: sfcluster01
+- name: Add QOS Policy
+  na_elementsw_qos_policy:
+    hostname: "{{ elementsw_hostname }}"
+    username: "{{ elementsw_username }}"
+    password: "{{ elementsw_password }}"
+    state: present
+    name: platinum
+    qos: "{{policyseetings}}"

@@ -1,0 +1,7 @@
+- name: testing a role
+  hosts: bender
+  gather_facts: no
+  become: true
+  roles:
+    - challenge
+
